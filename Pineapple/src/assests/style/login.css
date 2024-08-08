@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(48.15deg, #1CAC78 16.62%, #008080 85.61%);
+}
+
+
+.card {
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 350px; 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    height: 430px; 
+   padding-top: 9.25rem;
+   padding-bottom: 9.313rem;
+}
+
+.inner {
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 18px, 18px;
+
+}
+
+.nc {
+    justify-content: center;
+    padding-top: 2px;
+    padding-left: 110px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+    margin: 10%;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid snow;
+
+}
+
+.fc {
+    height: 70px;
+    align-items: center;
+    padding-bottom: 3px;
+    filter: invert(100%);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: snow;
+
+}
+
+.conteudo h1 {
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.conteudo h2 {
+    font-size: 19px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.conteudo p {
+    font-size: 15px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.quadro1 {
+    padding: 8%;
+    margin: 4%;
+    width: 32px;
+    height: 32px;
+    border-radius: 20%;
+    border: 3px solid snow;
+}
+
+.quadro2 {
+    padding: 8%;
+    margin: 4%;
+    width: 32px;
+    height: 32px;
+    border-radius: 20%;
+    border: 3px solid snow;
+
+}
+
+.quadro3 {
+    padding: 8%;
+    margin: 4%;
+    width: 32px;
+    height: 32px;
+    border-radius: 20%;
+    border: 3px solid snow;
+}
+
+.icon {
+    height: 60px;
+    padding-right: 227px;
+    padding-bottom: 147px;
+    filter: invert(100%);
+}

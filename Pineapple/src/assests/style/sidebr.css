@@ -1,0 +1,52 @@
+body {
+    background: #000;
+
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 80px;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 16px 0 ;
+
+}
+
+.sidebar_navigation .logo {
+    border-radius: 8px;
+    padding: 16px 0 16px 0 ;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+
+}
+
+.sidebar_navigation .content li {
+    list-style-type: none;
+
+}
+
+.sidebar_navigation .content a {
+    font-size: 23px;
+    color: snow;
+    margin-right: 12px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+
+.vert_video {
+    justify-content: center;
+    justify-items: center;
+    margin-left: 520px;
+    padding-top: 14px;
+
+}

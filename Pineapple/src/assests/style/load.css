@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(48.15deg, #1CAC78 16.62%, #008080 85.61%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    transform: scale(5); 
+    overflow: hidden;
+}
+
+.cl {
+   
+
+}
+
+.loading {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #FFFF00;
+    border-radius: 50%;
+    border-top-color: #008200;
+    height: 30px;
+    width: 30px;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}

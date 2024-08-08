@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(48.15deg, #1CAC78 16.62%, #008080 85.61%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contentIm img {
+    height: 390px;
+    padding-top: 100px;
+
+}
+
+h1 {
+    color: snow;
+    padding-top: 25px;
+    padding-left: 125px;
+}
